@@ -1,0 +1,23 @@
+{
+  "name": "tutorial-websites-scraper",
+  "version": "1.0.0",
+  "description": "Scraper data from a list of websites and store them into Storyblok.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "scrape": "node index",
+    "clear-cache": "rm -f ./data/cache.json"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.21.1",
+    "csv-parser": "^3.0.0",
+    "get-website-favicon": "0.0.7",
+    "inquirer": "^7.3.3",
+    "jsdom": "^16.4.0",
+    "promise-throttle": "^1.1.2",
+    "slugify": "^1.4.6",
+    "storyblok-js-client": "^3.3.0"
+  }
+}
